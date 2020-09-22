@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: CAMEL-ZIPKIN-TEST
+    
+camel:
+  zipkin:
+    endpoint: http://localhost:9411/api/v2/spans
+    include-message-body-streams: true
